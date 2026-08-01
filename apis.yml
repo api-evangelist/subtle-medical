@@ -1,8 +1,25 @@
 aid: subtle-medical
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/subtle-medical.png
 name: Subtle Medical
-description: 'Subtle Medical is a company surfaced as a portfolio company of bessemer-venture-partners,
-  dcvc and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Subtle Medical is a healthcare AI company founded in 2017 and headquartered
+  in Menlo Park, California, that develops FDA-cleared deep-learning software to enhance
+  medical imaging. Its products — SubtleMR, SubtlePET, SubtleGAD and SubtleSYNTH — denoise,
+  accelerate and improve MRI and PET scans, integrating into existing radiology and PACS
+  workflows via DICOM rather than through a public developer API or REST platform. The
+  company is backed by Bessemer Venture Partners and DCVC. No public developer API,
+  OpenAPI specification, SDK, or developer portal was discoverable during enrichment;
+  DNS/TLS domain-security posture was probed.'
 url: https://raw.githubusercontent.com/api-evangelist/subtle-medical/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Medical Imaging
+- Artificial Intelligence
+- Deep Learning
+- Radiology
+- DICOM
+- Diagnostics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/subtle-medical-domain-security.yml
 - type: Website
   url: https://www.subtlemedical.com/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
