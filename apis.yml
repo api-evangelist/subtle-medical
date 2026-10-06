@@ -41,7 +41,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Healthcare
@@ -58,6 +58,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://subtlemedical.com/news/
+  type: Blog
+- url: https://subtlemedical.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/subtle-medical-domain-security.yml
 - type: Website
